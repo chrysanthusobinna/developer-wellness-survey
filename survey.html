@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Mental Health Survey</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><h1>Mental Health Survey</h1></a>
+    </header>
+    <main style="margin-top:20px;">
+         
+        <div id="survey-container">
+            <div id="question-counter"></div>
+            <hr/>
+            <div id="question"></div>
+            <div id="responses"></div>
+            <div class="button-container">
+                <button id="prev-button" disabled>Previous</button>
+                <button id="next-button">Next</button>
+                <button id="submit-button" style="display: none;">Submit</button>
+            </div>
+            <hr/>
+
+            <div id="summary" style="display: none;"></div>
+            <button type="button" onclick = "window.location='confirm.html';" id="final-submit-button" style="display: none;">Confirm and Submit</button>
+        </div>
+        
+    </main>
+    <footer>
+        <p>&copy; <?php echo date("Y"); ?> Developers Mental Health Survey.</p>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
