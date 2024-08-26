@@ -5,11 +5,22 @@ body {
     background-color: #f4f4f4;
 }
 
-header {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
+ 
+
+.survey-header {
+    background-color: #4CAF50; 
+    padding: 20px;  
+    text-align: center;  
+}
+
+.survey-header h1 {
+    margin: 0;  
+    font-weight: bold;  
+}
+
+.survey-header a {
+    text-decoration: none;  
+    color: white;  
 }
 
 main {
