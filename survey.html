@@ -9,26 +9,90 @@
 </head>
 <body>
     <header>
-        <a href="index.html"><h1>Mental Health Survey</h1></a>
+        <a href="index.html"><h1>Mental Health Awareness Survey</h1></a>
     </header>
     <main style="margin-top:20px;">
-         
-        <div id="survey-container">
-            <div id="question-counter"></div>
-            <hr/>
-            <div id="question"></div>
-            <div id="responses"></div>
-            <div class="button-container">
-                <button id="prev-button" disabled>Previous</button>
-                <button id="next-button">Next</button>
-                <button id="submit-button" style="display: none;">Submit</button>
-            </div>
-            <hr/>
+        <form id="survey-form" action="confirm.html" method="GET">
+            <div id="survey-container">
+                
+                <div class="question" id="question-0">
+                    1/5
+                    <hr/>
+                    <p>On a scale of 1 to 5, how would you rate your work-life balance? (1 being very poor, 5 being excellent)</p>
+                    <div>
+                        <input type="radio" name="question-0" value="1"> 1<br>
+                        <input type="radio" name="question-0" value="2"> 2<br>
+                        <input type="radio" name="question-0" value="3"> 3<br>
+                        <input type="radio" name="question-0" value="4"> 4<br>
+                        <input type="radio" name="question-0" value="5"> 5<br>
+                    </div>
+                </div>
 
-            <div id="summary" style="display: none;"></div>
-            <button type="button" onclick = "window.location='confirm.html';" id="final-submit-button" style="display: none;">Confirm and Submit</button>
-        </div>
-        
+                <div class="question" id="question-1" style="display:none;">
+                    2/5
+                    <hr/>                    
+                    <p>In the past month, how often have you felt overwhelmed or stressed due to work demands?</p>
+                    <div>
+                        <input type="radio" name="question-1" value="Never"> Never<br>
+                        <input type="radio" name="question-1" value="Rarely"> Rarely<br>
+                        <input type="radio" name="question-1" value="Sometimes"> Sometimes<br>
+                        <input type="radio" name="question-1" value="Often"> Often<br>
+                        <input type="radio" name="question-1" value="Always"> Always<br>
+                    </div>
+                </div>
+
+                <div class="question" id="question-2" style="display:none;">
+                    3/5
+                    <hr/>                   
+                    <p>How frequently do you experience feelings of anxiety or depression related to your work?</p>
+                    <div>
+                        <input type="radio" name="question-2" value="Never"> Never<br>
+                        <input type="radio" name="question-2" value="Rarely"> Rarely<br>
+                        <input type="radio" name="question-2" value="Sometimes"> Sometimes<br>
+                        <input type="radio" name="question-2" value="Often"> Often<br>
+                        <input type="radio" name="question-2" value="Always"> Always<br>
+                    </div>
+                </div>
+
+                <div class="question" id="question-3" style="display:none;">
+                    4/5
+                    <hr/>                  
+                    <p>Do you feel you have adequate support from your colleagues and supervisors when facing challenges at work?</p>
+                    <div>
+                        <input type="radio" name="question-3" value="Strongly Disagree"> Strongly Disagree<br>
+                        <input type="radio" name="question-3" value="Disagree"> Disagree<br>
+                        <input type="radio" name="question-3" value="Neutral"> Neutral<br>
+                        <input type="radio" name="question-3" value="Agree"> Agree<br>
+                        <input type="radio" name="question-3" value="Strongly Agree"> Strongly Agree<br>
+                    </div>
+                </div>
+
+                <div class="question" id="question-4" style="display:none;">
+                    5/5
+                    <hr/>                  
+                    <p>Over the past month, how often have you felt disengaged or unmotivated in your work?</p>
+                    <div>
+                        <input type="radio" name="question-4" value="Never"> Never<br>
+                        <input type="radio" name="question-4" value="Rarely"> Rarely<br>
+                        <input type="radio" name="question-4" value="Sometimes"> Sometimes<br>
+                        <input type="radio" name="question-4" value="Often"> Often<br>
+                        <input type="radio" name="question-4" value="Always"> Always<br>
+                    </div>
+                </div>
+
+                <div id="navigation-buttons" style="margin-top:20px;">
+                    <button type="button" id="prev-button" disabled>Previous</button>
+                    <button type="button" id="next-button">Next</button>
+                </div>
+                
+                <div id="summary" style="display: none; margin-top: 20px;">
+                    <h2>Your Responses</h2>
+                    <div id="summary-content"></div>
+                    <input type="hidden" name="responses" id="hidden-responses">
+                    <button type="button" id="final-submit-button">Confirm and Submit</button>
+                </div>
+            </div>
+        </form>
     </main>
     <footer>
         <p>&copy; <?php echo date("Y"); ?> Developers Mental Health Survey.</p>
