@@ -48,6 +48,13 @@ The application consists of four primary pages:
 
   ![screenshot](documentation/error-page.png)
 
+
+### Features Left to Implement
+
+- **Email Notification System**: Develop the backend code to facilitate email notifications that will be triggered upon the successful submission of the survey form. This feature will ensure that users receive a confirmation of their submission and any additional relevant information.
+
+- **Personalized User Recommendations**: Implement a function that analyzes the user responses from the survey and generates tailored advice or suggestions. This will enhance user engagement by providing customized feedback based on individual inputs and preferences.
+
 ## Tools & Technologies Used
 
 - [![HTML](https://img.shields.io/badge/HTML-grey?logo=html5&logoColor=E34F26)](https://en.wikipedia.org/wiki/HTML) - Used for structuring the web pages.
@@ -92,4 +99,10 @@ To fork the repository:
 
 ## Credits
 
- 
+**Media**
+
+* The photos used on the Home Page, About Page, and Contact Page are from [Pexels](https://www.pexels.com/).
+
+**Mentor Support**
+
+I would like to express my gratitude to my mentor for their invaluable support throughout this project. They shared best practices and guidelines that significantly improved my approach to the design and development of this project. 
