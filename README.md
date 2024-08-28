@@ -55,6 +55,28 @@ The application consists of four primary pages:
 
 - **Personalized User Recommendations**: Implement a function that analyzes the user responses from the survey and generates tailored advice or suggestions. This will enhance user engagement by providing customized feedback based on individual inputs and preferences.
 
+
+
+## Testing 
+
+I conducted thorough testing of each page using various tools to ensure the website functions correctly and meets quality standards.
+#### Index Page:
+
+- **HTML Validator:** The HTML structure was validated using W3C HTML Validator. The result was "Document checking completed. No errors or warnings to show."
+  ![Index Page HTML Validator Result](documentation/index-html-validator.png)
+
+- **Google Chrome Lighthouse:** The Index page was tested with Google Chrome Lighthouse.
+
+Performance: 62, 
+Accessibility: 91, 
+Best Practices: 100, 
+SEO: 91. 
+
+Here is a screenshot of the result:
+  ![Index Page Lighthouse Result](documentation/index-lighthouse.png)
+
+
+
 ## Tools & Technologies Used
 
 - [![HTML](https://img.shields.io/badge/HTML-grey?logo=html5&logoColor=E34F26)](https://en.wikipedia.org/wiki/HTML) - Used for structuring the web pages.
