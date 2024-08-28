@@ -20,7 +20,7 @@
 
     <!-- Title of the webpage displayed in the browser tab -->
     <title>Mental Health Survey</title>
-    
+
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
@@ -44,86 +44,110 @@
 
         <!-- Form for the survey, with action directing to confirm.html on submission -->
         <form id="survey-form" action="confirm.html" method="GET">
+ 
             <div id="survey-container">
 
                 <!-- Question 1 -->
                 <div class="question" id="question-0">
                     1/5
                     <hr />
-                    <p>On a scale of 1 to 5, how would you rate your work-life balance? (1 being very poor, 5 being
-                        excellent)</p>
+                    <p>On a scale of 1 to 5, how would you rate your work-life balance? (1 being very poor, 5 being excellent)</p>
                     <div>
-                        <input type="radio" name="question-0" value="1"> 1<br>
-                        <input type="radio" name="question-0" value="2"> 2<br>
-                        <input type="radio" name="question-0" value="3"> 3<br>
-                        <input type="radio" name="question-0" value="4"> 4<br>
-                        <input type="radio" name="question-0" value="5"> 5<br>
+                        <input type="radio" id="q0-1" name="question-0" value="1">
+                        <label for="q0-1">1</label><br>
+                        <input type="radio" id="q0-2" name="question-0" value="2">
+                        <label for="q0-2">2</label><br>
+                        <input type="radio" id="q0-3" name="question-0" value="3">
+                        <label for="q0-3">3</label><br>
+                        <input type="radio" id="q0-4" name="question-0" value="4">
+                        <label for="q0-4">4</label><br>
+                        <input type="radio" id="q0-5" name="question-0" value="5">
+                        <label for="q0-5">5</label><br>
                     </div>
                 </div>
-
+            
                 <!-- Question 2 (initially hidden) -->
                 <div class="question" id="question-1" style="display:none;">
                     2/5
                     <hr />
                     <p>In the past month, how often have you felt overwhelmed or stressed due to work demands?</p>
                     <div>
-                        <input type="radio" name="question-1" value="Never"> Never<br>
-                        <input type="radio" name="question-1" value="Rarely"> Rarely<br>
-                        <input type="radio" name="question-1" value="Sometimes"> Sometimes<br>
-                        <input type="radio" name="question-1" value="Often"> Often<br>
-                        <input type="radio" name="question-1" value="Always"> Always<br>
+                        <input type="radio" id="q1-Never" name="question-1" value="Never">
+                        <label for="q1-Never">Never</label><br>
+                        <input type="radio" id="q1-Rarely" name="question-1" value="Rarely">
+                        <label for="q1-Rarely">Rarely</label><br>
+                        <input type="radio" id="q1-Sometimes" name="question-1" value="Sometimes">
+                        <label for="q1-Sometimes">Sometimes</label><br>
+                        <input type="radio" id="q1-Often" name="question-1" value="Often">
+                        <label for="q1-Often">Often</label><br>
+                        <input type="radio" id="q1-Always" name="question-1" value="Always">
+                        <label for="q1-Always">Always</label><br>
                     </div>
                 </div>
-
+            
                 <!-- Question 3 (initially hidden) -->
                 <div class="question" id="question-2" style="display:none;">
                     3/5
                     <hr />
                     <p>How frequently do you experience feelings of anxiety or depression related to your work?</p>
                     <div>
-                        <input type="radio" name="question-2" value="Never"> Never<br>
-                        <input type="radio" name="question-2" value="Rarely"> Rarely<br>
-                        <input type="radio" name="question-2" value="Sometimes"> Sometimes<br>
-                        <input type="radio" name="question-2" value="Often"> Often<br>
-                        <input type="radio" name="question-2" value="Always"> Always<br>
+                        <input type="radio" id="q2-Never" name="question-2" value="Never">
+                        <label for="q2-Never">Never</label><br>
+                        <input type="radio" id="q2-Rarely" name="question-2" value="Rarely">
+                        <label for="q2-Rarely">Rarely</label><br>
+                        <input type="radio" id="q2-Sometimes" name="question-2" value="Sometimes">
+                        <label for="q2-Sometimes">Sometimes</label><br>
+                        <input type="radio" id="q2-Often" name="question-2" value="Often">
+                        <label for="q2-Often">Often</label><br>
+                        <input type="radio" id="q2-Always" name="question-2" value="Always">
+                        <label for="q2-Always">Always</label><br>
                     </div>
                 </div>
-
+            
                 <!-- Question 4 (initially hidden) -->
                 <div class="question" id="question-3" style="display:none;">
                     4/5
                     <hr />
-                    <p>Do you feel you have adequate support from your colleagues and supervisors when facing challenges
-                        at work?</p>
+                    <p>Do you feel you have adequate support from your colleagues and supervisors when facing challenges at work?</p>
                     <div>
-                        <input type="radio" name="question-3" value="Strongly Disagree"> Strongly Disagree<br>
-                        <input type="radio" name="question-3" value="Disagree"> Disagree<br>
-                        <input type="radio" name="question-3" value="Neutral"> Neutral<br>
-                        <input type="radio" name="question-3" value="Agree"> Agree<br>
-                        <input type="radio" name="question-3" value="Strongly Agree"> Strongly Agree<br>
+                        <input type="radio" id="q3-StronglyDisagree" name="question-3" value="Strongly Disagree">
+                        <label for="q3-StronglyDisagree">Strongly Disagree</label><br>
+                        <input type="radio" id="q3-Disagree" name="question-3" value="Disagree">
+                        <label for="q3-Disagree">Disagree</label><br>
+                        <input type="radio" id="q3-Neutral" name="question-3" value="Neutral">
+                        <label for="q3-Neutral">Neutral</label><br>
+                        <input type="radio" id="q3-Agree" name="question-3" value="Agree">
+                        <label for="q3-Agree">Agree</label><br>
+                        <input type="radio" id="q3-StronglyAgree" name="question-3" value="Strongly Agree">
+                        <label for="q3-StronglyAgree">Strongly Agree</label><br>
                     </div>
                 </div>
-
+            
                 <!-- Question 5 (initially hidden) -->
                 <div class="question" id="question-4" style="display:none;">
                     5/5
                     <hr />
                     <p>Over the past month, how often have you felt disengaged or unmotivated in your work?</p>
                     <div>
-                        <input type="radio" name="question-4" value="Never"> Never<br>
-                        <input type="radio" name="question-4" value="Rarely"> Rarely<br>
-                        <input type="radio" name="question-4" value="Sometimes"> Sometimes<br>
-                        <input type="radio" name="question-4" value="Often"> Often<br>
-                        <input type="radio" name="question-4" value="Always"> Always<br>
+                        <input type="radio" id="q4-Never" name="question-4" value="Never">
+                        <label for="q4-Never">Never</label><br>
+                        <input type="radio" id="q4-Rarely" name="question-4" value="Rarely">
+                        <label for="q4-Rarely">Rarely</label><br>
+                        <input type="radio" id="q4-Sometimes" name="question-4" value="Sometimes">
+                        <label for="q4-Sometimes">Sometimes</label><br>
+                        <input type="radio" id="q4-Often" name="question-4" value="Often">
+                        <label for="q4-Often">Often</label><br>
+                        <input type="radio" id="q4-Always" name="question-4" value="Always">
+                        <label for="q4-Always">Always</label><br>
                     </div>
                 </div>
-
+            
                 <!-- Navigation buttons to go through the questions -->
                 <div id="navigation-buttons" style="margin-top:20px;">
                     <button type="button" id="prev-button" disabled>Previous</button>
                     <button type="button" id="next-button">Next</button>
                 </div>
-
+            
                 <!-- Summary section for displaying user responses (initially hidden) -->
                 <div id="summary" style="display: none; margin-top: 20px;">
                     <h2>Your Responses</h2>
@@ -131,7 +155,9 @@
                     <input type="hidden" name="responses" id="hidden-responses">
                     <button type="button" id="final-submit-button">Confirm and Submit</button>
                 </div>
+            
             </div>
+
         </form>
     </main>
 
@@ -145,5 +171,4 @@
     <script src="assets/js/date.js"></script>
 
 </body>
-
 </html>
