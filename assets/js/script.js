@@ -1,6 +1,20 @@
 /* jshint esversion: 11 */
 /* jshint jquery: true */
 
+
+// Initialize the jQuery UI dialog
+$(function() {
+    $("#dialog-message").dialog({
+        autoOpen: false,
+        modal: true,
+        buttons: {
+            "OK": function() {
+                $(this).dialog("close");
+            }
+        }
+    });
+});
+
 $(document).ready(function () {
     let currentQuestionIndex = 0; // Initialize the index for the current question
     const totalQuestions = $('.question').length; // Get the total number of questions
@@ -31,7 +45,9 @@ $(document).ready(function () {
                 displaySummary(); // Call the function to display the summary of responses
             }
         } else {
-            alert("Please select a response before proceeding."); // Alert user if no response is selected
+            //alert("Please select a response before proceeding."); // Alert user if no response is selected
+            $("#dialog-message").dialog("open"); // Open the jQuery UI dialog if no response is selected
+
         }
     });
 
