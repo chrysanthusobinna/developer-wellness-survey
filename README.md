@@ -31,22 +31,22 @@ The application consists of four primary pages:
 - **Homepage (index.html)**  
   Provides an overview of the survey and its purpose. This page introduces users to the survey and guides them on how to proceed.
 
-  ![screenshot](documentation/features/index-page.png)
+  ![screenshot](documentation/index-page.png)
 
 - **Survey Page (survey.html)**  
   Allows users to participate in the survey by answering a series of questions related to mental health.
 
-  ![screenshot](documentation/features/survey-page.png)
+  ![screenshot](documentation/survey-page.png)
 
 - **Confirmation Page (confirm.html)**  
   Displays a confirmation message after users complete the survey, thanking them for their participation.
 
-  ![screenshot](documentation/features/confirmation-page.png)
+  ![screenshot](documentation/confirmation-page.png)
 
 - **Error Page (404.html)**  
   Provides a user-friendly error message when a page is not found.
 
-  ![screenshot](documentation/features/error-page.png)
+  ![screenshot](documentation/error-page.png)
 
 ## Tools & Technologies Used
 
