@@ -6,7 +6,6 @@ $(document).ready(function () {
     const totalQuestions = $('.question').length; // Get the total number of questions
     const userResponses = Array(totalQuestions).fill(null); // Create an array to store user responses initialized with null
 
-    document.getElementById('currentYear').textContent = new Date().getFullYear();
 
     // Function to display the question at the specified index
     function displayQuestion(index) {
