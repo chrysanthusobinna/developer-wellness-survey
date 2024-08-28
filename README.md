@@ -62,21 +62,40 @@ The application consists of four primary pages:
 I conducted thorough testing of each page using various tools to ensure the website functions correctly and meets quality standards.
 #### Index Page:
 
-- **HTML Validator:** The HTML structure was validated using W3C HTML Validator. The result was "Document checking completed. No errors or warnings to show."
+- **HTML Validation**: The HTML structure of the project has been rigorously validated using the W3C HTML Validator. The validation outcome was successful, with the message: "Document checking completed. No errors or warnings to show." This ensures compliance with web standards and improves cross-browser compatibility.
+  
   ![Index Page HTML Validator Result](documentation/index-html-validator.png)
 
-- **Google Chrome Lighthouse:** The Index page was tested with Google Chrome Lighthouse.
+- **Performance Audit with Google Chrome Lighthouse**: The Index page underwent testing using Google Chrome Lighthouse, which assesses various aspects of web applications.
 
-Performance: 62, 
-Accessibility: 91, 
-Best Practices: 100, 
-SEO: 91. 
+  - **Performance**: 62 - While there is room for improvement, this score reflects a functional user experience.
+  - **Accessibility**: 91 - This high score indicates strong adherence to accessibility best practices, making the site usable for individuals with disabilities.
+  - **Best Practices**: 100 - A perfect score, signifying that the site follows industry best practices in web development.
+  - **SEO**: 91 - This score highlights effective search engine optimization strategies, ensuring better visibility in search results.
 
-Here is a screenshot of the result:
+  Below is a screenshot of the audit results for reference:
+  
   ![Index Page Lighthouse Result](documentation/index-lighthouse.png)
 
 
+#### Survey Page:
 
+- **HTML Validation:** The HTML structure of the Survey Page was thoroughly validated using the W3C HTML Validator. The validation result confirmed that the document is free of errors and warnings: **"Document checking completed. No errors or warnings to show."**
+  
+  ![Survey Page HTML Validator Result](documentation/survey-html-validator.png)
+
+- **Google Chrome Lighthouse Assessment:** The Survey Page underwent a comprehensive analysis using Google Chrome Lighthouse, which evaluates various aspects of web pages, including performance, accessibility, best practices, and SEO.
+
+  - **Performance:** 92  
+  - **Accessibility:** 83  
+  - **Best Practices:** 100  
+  - **SEO:** 90  
+
+  Below is a screenshot showcasing the Lighthouse assessment results for the Survey Page:
+
+  ![Survey Page Lighthouse Result](documentation/survey-lighthouse.png)
+
+ 
 ## Tools & Technologies Used
 
 - [![HTML](https://img.shields.io/badge/HTML-grey?logo=html5&logoColor=E34F26)](https://en.wikipedia.org/wiki/HTML) - Used for structuring the web pages.
