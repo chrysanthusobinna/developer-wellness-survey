@@ -1,8 +1,5 @@
 # Mental Health Awareness Survey
 
-[![GitHub commit activity](https://img.shields.io/github/commit-activity/t/yourusername/mental-health-awareness-survey)](https://github.com/yourusername/mental-health-awareness-survey/commits/main)
-[![GitHub last commit](https://img.shields.io/github/last-commit/yourusername/mental-health-awareness-survey)](https://github.com/yourusername/mental-health-awareness-survey/commits/main)
-[![GitHub repo size](https://img.shields.io/github/repo-size/yourusername/mental-health-awareness-survey)](https://github.com/yourusername/mental-health-awareness-survey)
 
 ## Overview
 
@@ -18,17 +15,14 @@ The application consists of four primary pages:
 
 ## UX
 
-### Colour Scheme
+#### Color Scheme
 
-- `#000000` - Primary text color.
-- `#E84610` - Primary highlight color.
-- `#4A4A4F` - Secondary text color.
-- `#009FE3` - Secondary highlight color.
+- **Background Color:** The background color of the website is #f4f4f4, providing a soft and neutral canvas that enhances readability and aesthetic appeal.
+- **Page Header Color:** The page header is styled with a vibrant green (#4CAF50), symbolizing growth, health, and a refreshing atmosphere. This color choice is ideal for a platform focused on health awareness and education.
 
-### Typography
+#### Typography
 
-- **Primary Font**: [Montserrat](https://fonts.google.com/specimen/Montserrat) for headers and titles.
-- **Secondary Font**: [Lato](https://fonts.google.com/specimen/Lato) for general text.
+- **Font:** The font used throughout the website is `Arial, sans-serif`. This font choice ensures readability across different devices and provides a clean, modern look to the content.
 
 ## Features
 
