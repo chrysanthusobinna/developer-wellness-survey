@@ -95,6 +95,26 @@ I conducted thorough testing of each page using various tools to ensure the webs
 
   ![Survey Page Lighthouse Result](documentation/survey-lighthouse.png)
 
+
+#### Confirm Page:
+
+- **HTML Validation:** The HTML structure of the Confirm Page was meticulously validated using the W3C HTML Validator. The validation result showcases the quality of the code: **"Document checking completed. No errors or warnings to show."**
+
+  ![Confirm Page HTML Validator Result](documentation/confirm-html-validator.png)
+
+- **Google Chrome Lighthouse Evaluation:** A comprehensive assessment of the Confirm Page was conducted using Google Chrome Lighthouse, a powerful tool that evaluates crucial performance metrics, accessibility, best practices, and search engine optimization (SEO).
+
+  - **Performance:** 50 – While there is room for improvement, this score highlights the need for optimizations to enhance the user experience and loading times.
+  - **Accessibility:** 91 – A commendable score demonstrating strong design principles that ensure inclusivity for all users.
+  - **Best Practices:** 100 – An exemplary score reflecting adherence to web development best practices, ensuring security and reliability.
+  - **SEO:** 91 – A strong score indicating effective search engine optimization strategies in place, contributing to better visibility in search engine results.
+
+  Below is a screenshot that captures the Lighthouse assessment results for the Confirm Page:
+
+  ![Confirm Page Lighthouse Result](documentation/confirm-lighthouse.png)
+
+ 
+
  
 ## Tools & Technologies Used
 
