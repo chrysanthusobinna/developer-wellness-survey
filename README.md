@@ -226,7 +226,10 @@ These metrics give insights into the structure and complexity of the code, allow
 
 ![Error Message Screenshot](documentation/js-dialog.png)
 
-During my testing with Google Chrome Developer Tools, I encountered an error in the console, which pointed to a malfunction in the year display at the bottom of each webpage. The issue stemmed from my implementation of JavaScript in the `script.js` file, where I was using JavaScript to dynamically output the current year. To resolve this, I separated the line responsible for retrieving the current year, `document.getElementById('currentYear').textContent = new Date().getFullYear();`, from the jQuery code in `script.js`. I then created a new file, `date.js`, to contain this function, which successfully rectified the issue.
+During my testing with Google Chrome Developer Tools, I encountered an error in the console, which pointed to a malfunction in the year display at the bottom of each webpage. The issue stemmed from my implementation of JavaScript in the `script.js` file, where I was using JavaScript to dynamically output the current year. To resolve this, I separated the line responsible for retrieving the current year, `document.getElementById('currentYear').textContent = new Date().getFullYear();`, from the jQuery code in `script.js`. I then created a new file, `date.js`, to contain this function, which successfully rectified the issue. seescreenshot for reference;
+
+![JS Error Screenshot](documentation/js-error.png)
+
 
 Despite these minor setbacks, I am confident that our website offers a user-friendly and efficient way for visitors to access the information they need. We believe that our site meets all the requirements outlined in the project brief and is ready for launch.
  
@@ -237,11 +240,11 @@ Despite these minor setbacks, I am confident that our website offers a user-frie
 
 The site is deployed on GitHub Pages. To deploy the site, follow these steps:
 
-1. Navigate to the [GitHub repository](https://github.com/yourusername/mental-health-awareness-survey) and go to the Settings tab.
+1. Navigate to the [GitHub repository](https://github.com/chrysanthusobinna/developer-wellness-survey) and go to the Settings tab.
 2. In the "Pages" section, select the **Main** branch as the source and save the settings.
 3. The page will be automatically updated to reflect the changes.
 
-The live site can be accessed [here](https://yourusername.github.io/mental-health-awareness-survey).
+The live site can be accessed [here](https://chrysanthusobinna.github.io/developer-wellness-survey/).
 
 ### Local Deployment
 
@@ -249,11 +252,11 @@ To run the project locally, follow these steps:
 
 #### Cloning
 
-1. Visit the [GitHub repository](https://github.com/yourusername/mental-health-awareness-survey).
+1. Visit the [GitHub repository](https://github.com/chrysanthusobinna/developer-wellness-survey).
 2. Click the "Code" button and copy the URL for cloning.
 3. Open Git Bash or Terminal and run:
    ```bash
-   git clone https://github.com/yourusername/mental-health-awareness-survey.git
+   git clone https://github.com/chrysanthusobinna/developer-wellness-survey.git
    ```
 4. Navigate to the project directory and open the HTML files in a browser.
 
@@ -263,7 +266,7 @@ To run the project locally, follow these steps:
 
 To fork the repository:
 
-1. Log in to GitHub and go to the [repository page](https://github.com/yourusername/mental-health-awareness-survey).
+1. Log in to GitHub and go to the [repository page](https://github.com/chrysanthusobinna/developer-wellness-survey).
 2. Click the "Fork" button at the top-right corner of the page.
 
 ## Credits
