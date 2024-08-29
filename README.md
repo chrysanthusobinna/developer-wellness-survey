@@ -140,6 +140,27 @@ In addition to HTML validation, the 404 page underwent a comprehensive performan
 Here is a screenshot of the Lighthouse audit results:
 
 ![Lighthouse Result for 404 Page](documentation/error-404-lighthouse.png) 
+
+
+I conducted testing on all features, including the survey form, links, and responsive design. The website was also evaluated across various browsers (Chrome, Firefox, Safari) and different screen sizes (desktop, tablet, and mobile) using Google Chrome Developer Tools.
+
+### Responsive Design Testing
+
+To verify the website's responsiveness, I utilized Google Chrome Developer Tools to emulate various devices. Below are the details of the tests conducted:
+
+- **Mobile Phone**
+  - Tested on a mobile phone using Chrome Developer Tools.
+  - ![Mobile Phone Result](documentation/mobile-phone.png)
+
+- **iPad**
+  - Tested on an iPad using Chrome Developer Tools.
+  - ![iPad Result](documentation/ipad.png)
+
+- **Desktop**
+  - Tested on a desktop.
+  - ![Desktop Result](documentation/desktop.png)
+
+
  
 ## Tools & Technologies Used
 
