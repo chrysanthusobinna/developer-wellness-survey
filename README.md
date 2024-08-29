@@ -194,6 +194,25 @@ Upon validation, the results were exceptional: **"Congratulations! No Error Foun
 By maintaining valid CSS, I aimed to enhance the website's compatibility across different browsers and devices, ensuring a consistent and visually appealing layout for all users.
 
 
+#### JavaScript/jQuery Testing
+
+To ensure the quality and functionality of the JavaScript code, I conducted a thorough assessment using [JSHint](https://jshint.com/). This tool provides a robust analysis of JavaScript code to identify potential issues and maintain best practices.
+
+The following metrics were reported for the JavaScript file:
+
+- **Total Functions:** 9 functions
+- **Function with the Largest Signature:** Takes 1 argument
+- **Median Function Signature:** 0 arguments
+- **Largest Function Statement Count:** 10 statements
+- **Median Function Statement Count:** 3 statements
+- **Most Complex Function Cyclomatic Complexity:** 3 
+- **Median Cyclomatic Complexity:** 1
+
+These metrics give insights into the structure and complexity of the code, allowing for more informed decisions on refactoring and optimization.
+
+![JavaScript Testing Result](documentation/js-validation.png)  <!-- Replace with the actual path to your screenshot -->
+
+
 
 During my testing with Google Chrome Developer Tools, I encountered an error in the console, which pointed to a malfunction in the year display at the bottom of each webpage. The issue stemmed from my implementation of JavaScript in the `script.js` file, where I was using JavaScript to dynamically output the current year. To resolve this, I separated the line responsible for retrieving the current year, `document.getElementById('currentYear').textContent = new Date().getFullYear();`, from the jQuery code in `script.js`. I then created a new file, `date.js`, to contain this function, which successfully rectified the issue.
 
