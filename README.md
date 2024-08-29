@@ -61,9 +61,11 @@ The application consists of four primary pages:
 
 ### Features Left to Implement
 
-- **Email Notification System**: Develop the backend code to facilitate email notifications that will be triggered upon the successful submission of the survey form. This feature will ensure that users receive a confirmation of their submission and any additional relevant information.
+- **Email Notification System**: Develop the backend code to facilitate email notifications triggered upon successful survey submission. This feature will ensure users receive confirmation of their submission and any additional relevant information.
 
-- **Personalized User Recommendations**: Implement a function that analyzes the user responses from the survey and generates tailored advice or suggestions. This will enhance user engagement by providing customized feedback based on individual inputs and preferences.
+- **Personalized User Recommendations**: Implement a function that analyzes user responses from the survey and generates tailored advice or suggestions, enhancing user engagement by providing customized feedback based on individual inputs and preferences.
+
+- **Backend System and Database**: Add backend code and a database system to store and retrieve user responses securely. This will include an admin panel to manage survey responses, sort data, delete entries, and view analytical information.
 
 
 
@@ -214,7 +216,6 @@ These metrics give insights into the structure and complexity of the code, allow
 
 #### Defensive Programming
 
-In our survey application:
 - Users cannot submit the survey or proceed to the next step until they select an option.
 - A jQuery UI dialog is used to alert the user when no input is entered and they attempt to click an option.
 
@@ -251,9 +252,7 @@ To run the project locally, follow these steps:
    ```
 4. Navigate to the project directory and open the HTML files in a browser.
 
-Alternatively, you can use [Gitpod](https://gitpod.io) to create an online workspace:
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/yourusername/mental-health-awareness-survey)
 
 #### Forking
 
