@@ -181,6 +181,20 @@ Below is a screenshot showcasing the survey form and the successful submission o
 ![survey Form ](documentation/survey-page.png)
 ![survey Form Result](documentation/confirmation-page.png)
 
+
+
+#### CSS Validation
+
+To ensure the quality and correctness of the CSS code for the website, I utilized the [CSS Validator](https://jigsaw.w3.org/css-validator/) tool. This tool is instrumental in checking the syntax and compliance of CSS against web standards. 
+
+Upon validation, the results were exceptional: **"Congratulations! No Error Found."** This indicates that the CSS code is free of errors and adheres to best practices, contributing to a robust user experience.
+
+![CSS Validator Result](documentation/validate-css.png)
+
+By maintaining valid CSS, I aimed to enhance the website's compatibility across different browsers and devices, ensuring a consistent and visually appealing layout for all users.
+
+
+
 During my testing with Google Chrome Developer Tools, I encountered an error in the console, which pointed to a malfunction in the year display at the bottom of each webpage. The issue stemmed from my implementation of JavaScript in the `script.js` file, where I was using JavaScript to dynamically output the current year. To resolve this, I separated the line responsible for retrieving the current year, `document.getElementById('currentYear').textContent = new Date().getFullYear();`, from the jQuery code in `script.js`. I then created a new file, `date.js`, to contain this function, which successfully rectified the issue.
 
 Despite these minor setbacks, I am confident that our website offers a user-friendly and efficient way for visitors to access the information they need. We believe that our site meets all the requirements outlined in the project brief and is ready for launch.
