@@ -261,7 +261,8 @@ To fork the repository:
 **Media**
 
 * The photos used on the Home Page, About Page, and Contact Page are from [Pexels](https://www.pexels.com/).
+* The favicon for this project was sourced from [Favicon.io](https://favicon.io/).
 
 **Mentor Support**
 
-I would like to express my gratitude to my mentor for their invaluable support throughout this project. They shared best practices and guidelines that significantly improved my approach to the design and development of this project. 
+I would like to express my gratitude to my mentor for their invaluable support throughout this project. They shared best practices and guidelines that significantly improved my approach to the design and development of this project.
