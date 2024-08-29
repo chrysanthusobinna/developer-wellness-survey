@@ -114,7 +114,32 @@ I conducted thorough testing of each page using various tools to ensure the webs
   ![Confirm Page Lighthouse Result](documentation/confirm-lighthouse.png)
 
  
+ 
+### 404 Page
 
+#### HTML Validation 
+To ensure a robust and error-free structure, the HTML of the 404 page was meticulously validated using the **W3C HTML Validator**. The validation was successful, yielding the following result: 
+
+> **Document checking completed. No errors or warnings to show.**
+
+![HTML Validator Result for 404 Page](documentation/error-404-html-validator.png)
+
+This clean validation reinforces the importance of adhering to web standards, promoting both performance and accessibility.
+
+#### Google Chrome Lighthouse Audit
+In addition to HTML validation, the 404 page underwent a comprehensive performance audit using **Google Chrome Lighthouse**. Below are the scores achieved in key areas, along with remarks:
+
+- **Performance:** 86 – While there is room for improvement, this score highlights the need for optimizations to enhance the user experience and loading times. Strategies such as minimizing render-blocking resources and optimizing images could further improve this score.
+
+- **Accessibility:** 91 – A commendable score demonstrating strong design principles that ensure inclusivity for all users. The page successfully addresses many accessibility standards, but there's potential for further enhancements, like improving color contrast and keyboard navigation.
+
+- **Best Practices:** 100 – An exemplary score reflecting adherence to web development best practices, ensuring security and reliability. This perfect score indicates a robust and secure coding methodology.
+
+- **SEO:** 91 – A strong score indicating effective search engine optimization strategies in place, contributing to better visibility in search engine results. Continued focus on refining metadata and keyword usage could push this score even higher.
+
+Here is a screenshot of the Lighthouse audit results:
+
+![Lighthouse Result for 404 Page](documentation/error-404-lighthouse.png) 
  
 ## Tools & Technologies Used
 
