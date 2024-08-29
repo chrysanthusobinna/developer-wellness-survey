@@ -210,9 +210,15 @@ The following metrics were reported for the JavaScript file:
 
 These metrics give insights into the structure and complexity of the code, allowing for more informed decisions on refactoring and optimization.
 
-![JavaScript Testing Result](documentation/js-validation.png)  <!-- Replace with the actual path to your screenshot -->
+![JavaScript Testing Result](documentation/js-validation.png) 
 
+#### Defensive Programming
 
+In our survey application:
+- Users cannot submit the survey or proceed to the next step until they select an option.
+- A jQuery UI dialog is used to alert the user when no input is entered and they attempt to click an option.
+
+![Error Message Screenshot](documentation/js-dialog.png)
 
 During my testing with Google Chrome Developer Tools, I encountered an error in the console, which pointed to a malfunction in the year display at the bottom of each webpage. The issue stemmed from my implementation of JavaScript in the `script.js` file, where I was using JavaScript to dynamically output the current year. To resolve this, I separated the line responsible for retrieving the current year, `document.getElementById('currentYear').textContent = new Date().getFullYear();`, from the jQuery code in `script.js`. I then created a new file, `date.js`, to contain this function, which successfully rectified the issue.
 
