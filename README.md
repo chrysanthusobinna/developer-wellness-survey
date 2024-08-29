@@ -146,13 +146,13 @@ This clean validation reinforces the importance of adhering to web standards, pr
 #### Google Chrome Lighthouse Audit
 In addition to HTML validation, the 404 page underwent a comprehensive performance audit using **Google Chrome Lighthouse**. Below are the scores achieved in key areas, along with remarks:
 
-- **Performance:** 86 – While there is room for improvement, this score highlights the need for optimizations to enhance the user experience and loading times. Strategies such as minimizing render-blocking resources and optimizing images could further improve this score.
+- **Performance:** 86 – This score reflects a solid user experience but suggests that there is room for optimization. Continued efforts to minimize render-blocking resources and optimize images could lead to further improvements.
 
-- **Accessibility:** 91 – A commendable score demonstrating strong design principles that ensure inclusivity for all users. The page successfully addresses many accessibility standards, but there's potential for further enhancements, like improving color contrast and keyboard navigation.
+- **Accessibility:** 91 – A commendable score demonstrating strong design principles that ensure inclusivity for all users. While the page effectively addresses many accessibility standards, further enhancements could be made, such as improving color contrast and keyboard navigation.
 
 - **Best Practices:** 100 – An exemplary score reflecting adherence to web development best practices, ensuring security and reliability. This perfect score indicates a robust and secure coding methodology.
 
-- **SEO:** 91 – A strong score indicating effective search engine optimization strategies in place, contributing to better visibility in search engine results. Continued focus on refining metadata and keyword usage could push this score even higher.
+- **SEO:** 100 – A perfect score, indicating highly effective search engine optimization strategies, contributing to optimal visibility in search engine results. Continued attention to metadata and keyword optimization will help maintain this score.
 
 Here is a screenshot of the Lighthouse audit results:
 
