@@ -5,6 +5,16 @@
 
 The **Mental Health Awareness Survey** is a web-based application designed to gather information and increase awareness about mental health issues. It aims to provide users with an opportunity to express their views and experiences related to mental health, contributing to a broader understanding and fostering community support.
 
+ 
+## Tools & Technologies Used
+
+- [![HTML](https://img.shields.io/badge/HTML-grey?logo=html5&logoColor=E34F26)](https://en.wikipedia.org/wiki/HTML) - Used for structuring the web pages.
+- [![CSS](https://img.shields.io/badge/CSS-grey?logo=css3&logoColor=1572B6)](https://en.wikipedia.org/wiki/CSS) - Used for styling the web pages.
+- [![JavaScript](https://img.shields.io/badge/JavaScript-grey?logo=javascript&logoColor=F7DF1E)](https://www.javascript.com) - Used for interactive elements.
+- [![jQuery](https://img.shields.io/badge/jQuery-grey?logo=jquery&logoColor=0769AD)](https://jquery.com) - Used for simplifying DOM manipulation and event handling.
+- [![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-grey?logo=githubpages&logoColor=222222)](https://pages.github.com) - Used for hosting the deployed site.
+
+
 The application consists of four primary pages:
 - `index.html`: The homepage of the survey, providing an overview and introduction.
 - `survey.html`: The main page where users can fill out the mental health survey.
@@ -176,13 +186,7 @@ During my testing with Google Chrome Developer Tools, I encountered an error in 
 Despite these minor setbacks, I am confident that our website offers a user-friendly and efficient way for visitors to access the information they need. We believe that our site meets all the requirements outlined in the project brief and is ready for launch.
  
 
- 
-## Tools & Technologies Used
 
-- [![HTML](https://img.shields.io/badge/HTML-grey?logo=html5&logoColor=E34F26)](https://en.wikipedia.org/wiki/HTML) - Used for structuring the web pages.
-- [![CSS](https://img.shields.io/badge/CSS-grey?logo=css3&logoColor=1572B6)](https://en.wikipedia.org/wiki/CSS) - Used for styling the web pages.
-- [![JavaScript](https://img.shields.io/badge/JavaScript-grey?logo=javascript&logoColor=F7DF1E)](https://www.javascript.com) - Used for interactive elements.
-- [![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-grey?logo=githubpages&logoColor=222222)](https://pages.github.com) - Used for hosting the deployed site.
 
 ## Deployment
 
