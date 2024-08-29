@@ -3,12 +3,12 @@
 
 
 // Initialize the jQuery UI dialog
-$(function() {
+$(function () {
     $("#dialog-message").dialog({
         autoOpen: false,
         modal: true,
         buttons: {
-            "OK": function() {
+            "OK": function () {
                 $(this).dialog("close");
             }
         }
@@ -34,12 +34,11 @@ $(document).ready(function () {
         if (selectedResponse.length) { // Check if a response is selected
             userResponses[currentQuestionIndex] = selectedResponse.val(); // Save the selected response in the userResponses array
             currentQuestionIndex++; // Move to the next question
-            
+
             // Check if there are more questions to display
             if (currentQuestionIndex < totalQuestions) {
                 displayQuestion(currentQuestionIndex); // Display the next question if available
-            } 
-            else {
+            } else {
                 $('#question-4').hide(); // Hide the last question (assuming there are 5 questions indexed 0-4)
                 $('#navigation-buttons').hide(); // Hide navigation buttons on the last question
                 displaySummary(); // Call the function to display the summary of responses
@@ -64,7 +63,7 @@ $(document).ready(function () {
         $('#navigation-buttons').hide(); // Hide navigation buttons to prevent further navigation
         $('#summary').show(); // Show the summary section
         $('#summary-content').empty(); // Clear any previously displayed summary content
-        
+
         $('.question').each(function (index) { // Iterate over each question
             if (userResponses[index]) { // Check if there is a recorded response for the question
                 const questionText = $(this).find('p:first').text(); // Get the text of the question
