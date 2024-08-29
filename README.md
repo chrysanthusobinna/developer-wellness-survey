@@ -72,6 +72,7 @@ The application consists of four primary pages:
 ## Testing 
 
 I conducted thorough testing of each page using various tools to ensure the website functions correctly and meets quality standards.
+
 #### Index Page:
 
 - **HTML Validation**: The HTML structure of the project has been rigorously validated using the W3C HTML Validator. The validation outcome was successful, with the message: "Document checking completed. No errors or warnings to show." This ensures compliance with web standards and improves cross-browser compatibility.
@@ -80,10 +81,12 @@ I conducted thorough testing of each page using various tools to ensure the webs
 
 - **Performance Audit with Google Chrome Lighthouse**: The Index page underwent testing using Google Chrome Lighthouse, which assesses various aspects of web applications.
 
-  - **Performance**: 62 - While there is room for improvement, this score reflects a functional user experience.
+- **Performance Audit with Google Chrome Lighthouse**: The Index Page underwent testing using Google Chrome Lighthouse, which assesses various aspects of web applications.
+
+  - **Performance**: 84 - This improved score reflects enhanced optimizations, contributing to a smoother and more efficient user experience.
   - **Accessibility**: 91 - This high score indicates strong adherence to accessibility best practices, making the site usable for individuals with disabilities.
   - **Best Practices**: 100 - A perfect score, signifying that the site follows industry best practices in web development.
-  - **SEO**: 91 - This score highlights effective search engine optimization strategies, ensuring better visibility in search results.
+  - **SEO**: 100 - This score highlights effective search engine optimization strategies, ensuring better visibility in search results.
 
   Below is a screenshot of the audit results for reference:
   
@@ -98,10 +101,11 @@ I conducted thorough testing of each page using various tools to ensure the webs
 
 - **Google Chrome Lighthouse Assessment:** The Survey Page underwent a comprehensive analysis using Google Chrome Lighthouse, which evaluates various aspects of web pages, including performance, accessibility, best practices, and SEO.
 
-  - **Performance:** 92  
-  - **Accessibility:** 83  
-  - **Best Practices:** 100  
-  - **SEO:** 90  
+  - **Performance:** 99 – An excellent score indicating optimal performance with minimal room for improvement.
+  - **Accessibility:** 83 – A solid score that reflects good accessibility practices, though there is potential for further enhancements.
+  - **Best Practices:** 100 – A perfect score demonstrating adherence to best practices in web development, ensuring high standards of security and reliability.
+  - **SEO:** 100 – An outstanding score showing effective SEO strategies, contributing to exceptional search engine visibility.
+
 
   Below is a screenshot showcasing the Lighthouse assessment results for the Survey Page:
 
@@ -116,10 +120,11 @@ I conducted thorough testing of each page using various tools to ensure the webs
 
 - **Google Chrome Lighthouse Evaluation:** A comprehensive assessment of the Confirm Page was conducted using Google Chrome Lighthouse, a powerful tool that evaluates crucial performance metrics, accessibility, best practices, and search engine optimization (SEO).
 
-  - **Performance:** 50 – While there is room for improvement, this score highlights the need for optimizations to enhance the user experience and loading times.
-  - **Accessibility:** 91 – A commendable score demonstrating strong design principles that ensure inclusivity for all users.
-  - **Best Practices:** 100 – An exemplary score reflecting adherence to web development best practices, ensuring security and reliability.
-  - **SEO:** 91 – A strong score indicating effective search engine optimization strategies in place, contributing to better visibility in search engine results.
+  - **Performance:** 99 – An excellent score demonstrating optimal performance, with no significant issues impacting user experience or loading times.
+  - **Accessibility:** 83 – Indicates a good level of accessibility, though there are areas for improvement to enhance usability for all users.
+  - **Best Practices:** 100 – A perfect score reflecting adherence to web development best practices, ensuring security and reliability.
+  - **SEO:** 100 – A perfect score showing effective search engine optimization strategies, contributing to superior visibility in search engine results.
+
 
   Below is a screenshot that captures the Lighthouse assessment results for the Confirm Page:
 
